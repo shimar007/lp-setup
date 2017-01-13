@@ -1,0 +1,5 @@
+# Ignore paths that contain user-generated content.
+node_modules
+
+#Ignore system files
+**/*.DS_Store

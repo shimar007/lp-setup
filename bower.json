@@ -1,0 +1,15 @@
+{
+  "name": "LP Setup",
+  "homepage": "https://github.com/shimar007/lp-setup",
+  "description": "LP Setup",
+  "main": "index.php",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components/libs",
+    "test",
+    "tests"
+  ]
+}

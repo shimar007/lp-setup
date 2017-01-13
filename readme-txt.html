@@ -1,0 +1,28 @@
+sudo npm install -g gulp
+sudo npm install -g bower
+
+
+sudo npm install --save-dev gulp
+sudo npm install gulp-sass --save-dev
+sudo npm install --save-dev gulp-uglify
+sudo npm install gulp-livereload
+sudo npm install --save-dev bower
+
+
+sudo chown -R $USER:$GROUP ~/.npm
+sudo chown -R $USER:$GROUP ~/.config
+
+create a file .bowerrc and put the following contents in it:
+{
+  "directory" : "components/libs"
+}
+
+
+bower init
+bower install bootstrap
+
+sudo npm install --save-dev gulp-rename
+sudo npm install --save-dev gulp-minify-css
+
+
+website link: http://andwecode.com/better-frontend-with-gulp-and-bower/
