@@ -1,2 +1,5 @@
 body {
-  margin: 100px; }
+  padding-top: 50px;
+  /*this is equivalent to height of navigation*/ }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGVzLmNzcyIsInNvdXJjZXMiOlsic3R5bGVzLnNjc3MiLCJiYXNlL2JvZHkuc2NzcyIsIm1vZHVsZXMvanVtYm90cm9uLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCAnYmFzZS9ib2R5JztcbkBpbXBvcnQgJ21vZHVsZXMvanVtYm90cm9uJzsiLCJib2R5IHtcblx0cGFkZGluZy10b3A6IDUwcHg7IC8qdGhpcyBpcyBlcXVpdmFsZW50IHRvIGhlaWdodCBvZiBuYXZpZ2F0aW9uKi9cbn0iLCIiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFDQUEsQUFBQSxJQUFJLENBQUM7RUFDSixXQUFXLEVBQUUsSUFBSTtFQUFHLDhDQUE4QyxFQUNsRSJ9 */

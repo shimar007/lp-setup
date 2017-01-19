@@ -4,10 +4,17 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var minifyCss = require('gulp-minify-css');
  
+ 
+var concat = require('gulp-concat');
+var sourcemaps = require('gulp-sourcemaps');
+ 
 // Compile sass
 gulp.task('sass', function () {
-  gulp.src('components/stylesheet/**/*.scss')
+  gulp.src('components/stylesheet/styles.scss')
+    .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
+    .pipe(sourcemaps.write())
+    .pipe(concat('styles.css'))
     .pipe(gulp.dest('./css'));
 	
 });

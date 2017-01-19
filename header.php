@@ -7,7 +7,9 @@
     
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    
+    <!-- Adding Favicon -->
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
 
     <title>Landing Page Template</title>
 
